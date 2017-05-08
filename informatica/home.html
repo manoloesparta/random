@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="./home/styles.css">
+    <link rel="stylesheet" type="text/css" href="./home/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./home/app2.css">
+    <title>HOME</title>
+    <script type="text/javascript" src="./home/jquery.js"></script>
+    <script type="text/javascript" src="./parse/parse.js"></script>
+    <script type="text/javascript" src="./home/code.js"></script>
+    <script type="text/javascript" src="./home/app2.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 id="current-user">Search</h1>
+        <hr>
+        <div class="row">
+            <div class="panel panel-primary filterable">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Users</h3>
+                    <div class="pull-right">
+                        <button class="btn btn-default btn-xs btn-filter"><span class="glyphicon glyphicon-search"></span>Search</button>
+                    </div>
+                </div>
+                <table class="table">
+                    <thead>
+                        <tr class="filters" id="ignorar">
+                            <th><input type="text" class="form-control" placeholder="Username" disabled></th>
+                        </tr>
+                    </thead>
+                    <tbody id="display-user">
+                        <!--<tr>
+                            <td username></td>
+                            <td fecha inicio></td>
+                            <td fecha fin></td>
+                        </tr>-->
+
+                        <!--modal
+
+                        -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <button class="btn btn-danger" id="logout">Log Out</button>
+    </div>
+</body>
+</html>
