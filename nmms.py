@@ -12,9 +12,9 @@ while True:
 		with Browser('chrome') as browser:
 			for i in range(num):
 				a += 1
-				url = "https://dilean12.sarahah.com/"
+				url = "victima"
 				browser.visit(url)
-				browser.find_by_tag('textarea').fill('Perra')
+				browser.find_by_tag('textarea').fill('mensaje')
 				button = browser.find_by_id('Send').click()
 				time.sleep(1)
 				print(a)
